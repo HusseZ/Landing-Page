@@ -1,0 +1,108 @@
+.header { 
+    display: flex; 
+    background-color: #1F2937;
+    padding: 8px; 
+    margin: 0;
+    padding: 0;
+
+}
+
+.header img{ 
+    height: 100px; 
+    width: 100px; 
+    position: relative; 
+    left: 100px; 
+    
+}
+
+.header ul {
+    font-size: 18px; 
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px; 
+    list-style: none;
+    margin-top: 16px;
+    position: relative;
+    left: 700px;
+}
+
+.header a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+    
+
+/*top header section ends here*/
+
+.container-1 {
+    background-color: #1F2937;
+    height: 250px; 
+    display: flex;
+    padding: 24px;
+    margin: 0; 
+}
+
+
+.container-1 .Main-text { 
+    font-size: 48px; 
+    font-weight: bold; 
+    color: #F9FAF8; 
+    max-width: 300px; 
+
+}
+
+.container-1 .subtext { 
+    font-size: 18px;
+    color: #E5E7EB; 
+    max-width: 300px;
+}
+
+
+.container-1 .top-click {
+    background-color: #3882F6;
+    border-radius: 5;
+}
+
+.container-1 img { 
+    height: 200px;
+    width: 400px;
+}
+
+/*First body container ends here*/
+
+.information-header { 
+    font-size: 36px; 
+    font-weight: bold;
+    color: #1F2937; 
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    margin-top: 8px;
+}
+
+.container-2 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px; 
+    padding: 16px;
+    margin-top: 70px;
+}
+
+
+.infomration-container img { 
+    height: 200px; 
+    width: 200px; 
+    border: #3882F6; 
+    border-radius: 7;
+
+}
+
+.information {
+    max-width: 200px;
+    text-align: center;
+}
+
+
+
+/* Second body container ends here */
