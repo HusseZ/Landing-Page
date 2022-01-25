@@ -12,6 +12,7 @@
     width: 100px; 
     position: relative; 
     left: 100px; 
+    border: yellow 3px solid;
     
 }
 
@@ -38,17 +39,29 @@
     background-color: #1F2937;
     height: 250px; 
     display: flex;
+    flex-wrap: wrap;
     padding: 24px;
     margin: 0; 
+    border: red 3px solid;
 }
 
 
-.container-1 .Main-text { 
+.container-1 .inner-container {
+    display: flex;
+    align-items: flex-start; 
+    border: yellow 3px solid;
+
+    
+}
+
+.container-1 .Main-text {  
     font-size: 48px; 
     font-weight: bold; 
     color: #F9FAF8; 
     max-width: 300px; 
-
+    height: 200px;
+    flex-basis: 0;
+    border: red 3px solid;
 }
 
 .container-1 .subtext { 
@@ -60,12 +73,22 @@
 
 .container-1 .top-click {
     background-color: #3882F6;
-    border-radius: 5;
+    border-radius: 5px;
+    border: #3882F6 solid ;
+    align-self: flex-end;
+    color:#F9FAF8;
+    font-weight: bold;
+    width: 80px; 
+    
+
 }
 
-.container-1 img { 
+.container-1 .top-section-img { 
     height: 200px;
-    width: 400px;
+    width: 450px;
+    position: relative; 
+    left: 70px; 
+    border: white 3px solid;
 }
 
 /*First body container ends here*/
@@ -86,15 +109,15 @@
     justify-content: center;
     gap: 18px; 
     padding: 16px;
-    margin-top: 70px;
+    margin-top: 24px;
 }
 
 
-.infomration-container img { 
+.information-container img { 
     height: 200px; 
     width: 200px; 
-    border: #3882F6; 
-    border-radius: 7;
+    border: #3882F6 solid 3px; 
+    border-radius: 7px;
 
 }
 
@@ -106,3 +129,74 @@
 
 
 /* Second body container ends here */
+
+
+.container-3 { 
+background-color: #E5E7EB; 
+height: 250px; 
+display: flex;
+flex-wrap: wrap;
+}
+
+.container-3 .quote { 
+    display: flex;
+    align-content: center; 
+    font-size: 36px;
+    color:#1F2937; 
+    padding: 34px; 
+    border: #3882F6 solid 3px;
+        
+}
+
+/* container-3 ends here */
+
+.container-4 { 
+    display: flex; 
+    border: red 3px solid;
+    background-color: #3882F6; 
+    padding: 24px; 
+    position: relative;
+    left: 180px;
+    margin: 50px;
+    width: 800px;  
+    border-radius: 7px; 
+
+}
+
+.continer-4 .inner-container-4 {
+    display: flex;
+
+}
+
+.inner-container-4 .Join { 
+    font-size: 16px; 
+    font-weight: bold;
+    color: #E5E7EB;  
+}
+
+.inner-container-4 .Join-subtext {
+    font-size: 12px; 
+    color:#E5E7EB;
+}
+
+.container-4 button{
+    background-color: #3882F6; 
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-weight: bold;
+    align-content: flex-start;
+    border: 2px solid;
+}
+
+/* container-4 ends, footer begins */
+
+.footer { 
+    background-color: #1F2937; 
+    color: #E5E7EB; 
+    font-size: 12px;
+    font-weight: 500;  
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
