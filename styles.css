@@ -12,7 +12,7 @@
     width: 100px; 
     position: relative; 
     left: 100px; 
-    border: yellow 3px solid;
+    
     
 }
 
@@ -24,7 +24,7 @@
     list-style: none;
     margin-top: 16px;
     position: relative;
-    left: 700px;
+    left: 800px;
 }
 
 .header a {
@@ -36,38 +36,41 @@
 /*top header section ends here*/
 
 .container-1 {
-    background-color: #1F2937;
-    height: 250px; 
     display: flex;
-    flex-wrap: wrap;
+    background-color: #1F2937;
+    height: 300px; 
     padding: 24px;
-    margin: 0; 
-    border: red 3px solid;
+  
 }
 
 
 .container-1 .inner-container {
     display: flex;
-    align-items: flex-start; 
-    border: yellow 3px solid;
-
-    
+    flex-wrap: wrap;
+    position: relative; 
+    left: 80px; 
+    max-width: 500px;
+      
 }
 
-.container-1 .Main-text {  
+.container-1 .Main-text { 
+    display: flex;
     font-size: 48px; 
     font-weight: bold; 
     color: #F9FAF8; 
-    max-width: 300px; 
-    height: 200px;
-    flex-basis: 0;
-    border: red 3px solid;
+    width: 480px;
+    height: 100px;
+          
 }
 
 .container-1 .subtext { 
     font-size: 18px;
     color: #E5E7EB; 
-    max-width: 300px;
+    max-width: 400px;
+    margin-top: 16px;
+    position: relative;
+    left: 6px;
+        
 }
 
 
@@ -76,19 +79,26 @@
     border-radius: 5px;
     border: #3882F6 solid ;
     align-self: flex-end;
-    color:#F9FAF8;
     font-weight: bold;
-    width: 80px; 
+    width: 100px; 
+    position: relative;
+    margin-top: 0;  
+    right: 390px;
+}
+.container-1 a{
+    text-decoration: none;
+    color:#F9FAF8;
+
+    }
     
 
-}
-
 .container-1 .top-section-img { 
-    height: 200px;
-    width: 450px;
-    position: relative; 
-    left: 70px; 
-    border: white 3px solid;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    left: 110px; 
+    border-radius: 8px;
+    
 }
 
 /*First body container ends here*/
@@ -101,6 +111,7 @@
     justify-content: center;
     padding: 16px;
     margin-top: 8px;
+    
 }
 
 .container-2 { 
@@ -114,15 +125,15 @@
 
 
 .information-container img { 
-    height: 200px; 
-    width: 200px; 
+    height: 250px; 
+    width: 250px; 
     border: #3882F6 solid 3px; 
     border-radius: 7px;
 
 }
 
 .information {
-    max-width: 200px;
+    max-width: 300px;
     text-align: center;
 }
 
@@ -132,27 +143,34 @@
 
 
 .container-3 { 
-background-color: #E5E7EB; 
-height: 250px; 
-display: flex;
-flex-wrap: wrap;
+    background-color: #E5E7EB; 
+    height: 300px; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 36px;
 }
 
 .container-3 .quote { 
-    display: flex;
     align-content: center; 
     font-size: 36px;
     color:#1F2937; 
-    padding: 34px; 
-    border: #3882F6 solid 3px;
-        
+    padding: 60px; 
+    height: 50px; 
+    
+}
+
+.container-3 .quotor {
+    font-size: 20px;
+    position: relative;
+    left: 900px;
+    
 }
 
 /* container-3 ends here */
 
 .container-4 { 
-    display: flex; 
-    border: red 3px solid;
+    display: flex;
+    flex-wrap: wrap; 
     background-color: #3882F6; 
     padding: 24px; 
     position: relative;
@@ -163,9 +181,9 @@ flex-wrap: wrap;
 
 }
 
-.continer-4 .inner-container-4 {
-    display: flex;
-
+.container-4 .inner-container-4 {
+    position: relative; 
+    left: 40px;
 }
 
 .inner-container-4 .Join { 
@@ -179,13 +197,22 @@ flex-wrap: wrap;
     color:#E5E7EB;
 }
 
-.container-4 button{
+.container-4 .bottom-click{
+    align-self: center;
     background-color: #3882F6; 
-    border-radius: 5px;
-    color: #E5E7EB;
     font-weight: bold;
-    align-content: flex-start;
-    border: 2px solid;
+    border: #E5E7EB 2px solid;
+    border-radius: 5px;
+    position: relative; 
+    left: 250px;
+    width: 100px;
+    padding: 3px;
+  
+}
+
+.container-4 a{
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 /* container-4 ends, footer begins */
@@ -193,7 +220,7 @@ flex-wrap: wrap;
 .footer { 
     background-color: #1F2937; 
     color: #E5E7EB; 
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;  
     height: 60px; 
     display: flex;
