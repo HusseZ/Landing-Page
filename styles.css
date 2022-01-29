@@ -171,7 +171,6 @@
 .container-4 { 
     display: flex;
     flex-wrap: wrap; 
-    align-self: center;
     background-color: #3882F6; 
     padding: 24px; 
     position: relative;
