@@ -1,3 +1,10 @@
+body {
+ overflow-x: hidden;
+ overflow-y: scroll;   
+}
+
+
+
 .header { 
     display: flex; 
     background-color: #1F2937;
