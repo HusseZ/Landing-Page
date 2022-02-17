@@ -1,22 +1,22 @@
 html {
     height: 100%; 
-    margin: 0; 
 }
 
 
 body {
- overflow-x: hidden;
  overflow-y: scroll;   
  margin: 0; 
  height: 100%;
  overflow-anchor: none;
+ background-color: #070707e5;
+ 
 }
 
 
 
 .header { 
     display: flex; 
-    background-color: #09244d9d;
+    background-color: #308adfc5;
     padding: 8px; 
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ body {
     height: 100px; 
     width: 100px; 
     position: relative; 
-    left: 180px; 
+    left: 100px; 
     
     
 }
@@ -41,7 +41,7 @@ body {
     align-self: center;
     margin-top: 16px;
     position: relative;
-    left: 1200px;
+    left: 900px;
      
 }
 
@@ -55,7 +55,7 @@ body {
 
 .container-1 {
     display: flex;
-    background-color: #09244d9d;
+    background-color: #308adfc5;
     height: 300px; 
     padding: 24px;
      
@@ -66,9 +66,11 @@ body {
 .container-1 .inner-container {
     display: flex;
     flex-wrap: wrap;
-    position: relative; 
-    left: 150px; 
-    max-width: 500px;
+    width: 500px;
+    height: 220px;
+    position: relative;
+    left: 80px;
+    margin-top: 20px;
       
 }
 
@@ -78,29 +80,28 @@ body {
     font-weight: bold; 
     color: #F9FAF8; 
     width: 480px;
-    height: 170px; 
-          
+    height: 100px;
+             
 }
 
 .container-1 .subtext { 
     font-size: 18px;
     color: #E5E7EB; 
     width: 400px;
-    position: relative;
-    left: 6px;
         
 }
 
 
 .container-1 .top-click {
-    background-color: #3882F6;
+    background-color: #3881f68f;
     border-radius: 5px;
-    border: #3882F6 solid ;
+    border: #E5E7EB solid 2px;
     align-self: flex-end;
     font-weight: bold;
     width: 100px; 
     position: relative;  
-    right: 390px;
+    right: 400px;
+    margin-top: 100px;
 }
 .container-1 a{
     text-decoration: none;
@@ -113,7 +114,7 @@ body {
     height: 300px;
     width: 600px;
     position: relative;
-    left: 510px; 
+    left: 200px; 
     border-radius: 8px; 
     
 }
@@ -123,7 +124,7 @@ body {
 .information-header { 
     font-size: 36px; 
     font-weight: bold;
-    color: #1F2937; 
+    color: #f9faf8; 
     display: flex;
     justify-content: center;
     padding: 16px;
@@ -152,6 +153,7 @@ body {
 .information {
     max-width: 300px;
     text-align: center;
+    color: #E5E7EB
 }
 
 
@@ -187,21 +189,19 @@ body {
 
 .container-4 { 
     display: flex;
-    flex-wrap: wrap; 
     background-color: #3882F6; 
-    padding: 24px; 
     position: relative;
-    left: 470px;
+    left: 200px;
+    padding: 24px; 
     margin: 50px;
     width: 800px;  
     border-radius: 7px;
-   
-
+    
 }
 
 .container-4 .inner-container-4 {
-    position: relative; 
-    left: 40px;
+    position: relative;
+    left: 60px;
 }
 
 .inner-container-4 .Join { 
